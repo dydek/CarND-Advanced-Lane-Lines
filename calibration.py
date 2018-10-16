@@ -41,5 +41,6 @@ def run_calibration():
         open(os.path.join(CALIBRATION_IMAGES_DIR, 'mtx_dist_pickle.p'), 'wb')
     )
 
+
 if __name__ == '__main__':
     run_calibration()
